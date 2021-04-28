@@ -1,7 +1,7 @@
 echo off
 echo "creating folder"
-md c:\jenkinsdemo1
+md c:\jenkinsdemo2
 echo "folder created"
 echo "inventory is capturing ***"
-systeminfo >> c:\jenkinsdemo1\sysdetail.txt
+systeminfo >> c:\jenkinsdemo2\sysdetail.txt
 echo "inventory captured"
